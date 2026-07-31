@@ -1,0 +1,15 @@
+import checkMarkIcon from '../assets/check.png';
+
+import React from 'react'
+
+function SkillList({src, skill}) {
+  return (
+    <span>
+      <img src={src} alt="" />
+      <p>{skill}</p>
+      
+    </span>
+  )
+}
+
+export default SkillList
